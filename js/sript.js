@@ -39,3 +39,9 @@ const userName = prompt('inserisci il tuo nome', 'Alessandro');
 
 const userSurname = prompt('inserisci il tuo cognome', 'Villani');
 ////console.log(userSurname);
+
+
+// 4) Chiedere all'utente il proprio colore preferito e salvarlo nella variabile userFavoriteColor
+
+const userFavoriteColor = prompt('inserisci il tuo colore preferito', 'Blu');
+////console.log(userFavoriteColor);
