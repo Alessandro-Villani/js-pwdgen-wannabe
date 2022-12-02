@@ -30,3 +30,8 @@ TODO:
 const targetElement = document.getElementById('target');
 ////console.log(targetElement);
 
+//2) Chiedere all'utente il proprio nome attraverso un prompt e salvarlo nella variabile userName
+
+const userName = prompt('inserisci il tuo nome', 'Alessandro');
+
+////console.log(userName);
