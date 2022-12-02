@@ -33,5 +33,9 @@ const targetElement = document.getElementById('target');
 //2) Chiedere all'utente il proprio nome attraverso un prompt e salvarlo nella variabile userName
 
 const userName = prompt('inserisci il tuo nome', 'Alessandro');
-
 ////console.log(userName);
+
+// 3) Chiedere all'utente il proprio cognome attraverso un prompt e salvarlo nella variabile userName.
+
+const userSurname = prompt('inserisci il tuo cognome', 'Villani');
+////console.log(userSurname);
