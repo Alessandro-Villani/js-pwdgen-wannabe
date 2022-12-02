@@ -48,5 +48,10 @@ const userFavoriteColor = prompt('inserisci il tuo colore preferito', 'Blu');
 
 // 5) Concatenare le stringhe precedentemente ottenute nella variabile Password aggiungendo alla fine la stringa '21'
 
-const Password = userName + userSurname + userFavoriteColor + '21';
+const password = userName + userSurname + userFavoriteColor + '21';
 ////console.log(Password);
+
+// 6) Stampare nel target la password.
+
+targetElement.innerText = password.toLowerCase();
+
