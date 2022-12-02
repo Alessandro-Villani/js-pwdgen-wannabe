@@ -1,0 +1,14 @@
+/*! CSS RESET */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*! GENERICS */
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
