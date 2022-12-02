@@ -45,3 +45,8 @@ const userSurname = prompt('inserisci il tuo cognome', 'Villani');
 
 const userFavoriteColor = prompt('inserisci il tuo colore preferito', 'Blu');
 ////console.log(userFavoriteColor);
+
+// 5) Concatenare le stringhe precedentemente ottenute nella variabile Password aggiungendo alla fine la stringa '21'
+
+const Password = userName + userSurname + userFavoriteColor + '21';
+////console.log(Password);
